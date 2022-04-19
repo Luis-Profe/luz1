@@ -4,9 +4,9 @@ input.onGesture(Gesture.ScreenUp, function () {
         basic.showIcon(IconNames.Happy)
     } else {
         basic.showIcon(IconNames.No)
-        basic.clearScreen()
-        basic.pause(1000)
     }
+    basic.clearScreen()
+    basic.pause(1000)
 })
 let moneda = 0
-moneda = 0
+moneda = 2
